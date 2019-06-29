@@ -1,0 +1,23 @@
+.app-container {
+        display: flex;
+        flex-direction: row;
+
+        .main-view-container{
+                width: 100%;
+                height: 100%;
+                background: #fff;
+                padding: 10px 44px;
+                overflow: scroll;
+                .page-header {
+                        padding: 0px 0px;
+                        font-size: 2.5rem;
+                        
+                        // To make topbar draggable for electron
+                        -webkit-user-select: none;
+                        -webkit-app-region: drag;
+                }
+                .page-contents {
+                        margin-top: 20px;
+                }
+        }
+}
