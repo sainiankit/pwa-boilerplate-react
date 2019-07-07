@@ -13,7 +13,7 @@ const Logo = (props) => (
                                 color: '#fff',
                                 marginRight: '5px'
                         }} />
-                <span className="logo-text">Steer</span>
+                <span className="logo-text">PWA</span>
                 </div>
         </div>
 )
