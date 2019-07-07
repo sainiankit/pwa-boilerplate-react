@@ -5,4 +5,7 @@
 
 export default {
         INCREMENT_COUNT: 'counter/INCREMENT_COUNT',
+        GET_TODO_LIST: 'todo/GET_TODO_LIST',
+        GET_TODO_LIST_SUCCESS: 'todo/GET_TODO_LIST_SUCCESS',
+        GET_TODO_LIST_FAILED: 'todo/GET_TODO_LIST_FAILED'
 }

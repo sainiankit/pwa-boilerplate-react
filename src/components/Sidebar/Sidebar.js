@@ -1,7 +1,6 @@
 import React from 'react';
 import { Layout, Drawer } from 'antd';
 import SidebarContents from './SidebarContents';
-import Logo from '../Logo/Logo';
 import Trigger from './Trigger';
 
 // CSS Imports

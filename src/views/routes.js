@@ -6,7 +6,7 @@ Views are react components composed out of other react components from /componen
 
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import menu from './menu';
+import menu from '../config/menu';
 
 const Routes = () => (
   <div className="main-view-container">

@@ -7,7 +7,7 @@ Loads the App Component into #root. */
 import { hot } from 'react-hot-loader/root'
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Routes from './config/routes';
+import Routes from './views/routes';
 import { Layout } from 'antd';
 import Sidebar from './components/Sidebar/Sidebar';
 

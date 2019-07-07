@@ -1,6 +1,6 @@
 import Home from '../views/Home/Home';
 import Example from '../views/Example/Example';
-import Async from '../views/Async/Example';
+import Async from '../views/Async/Async';
 
 const menu = [
         {
