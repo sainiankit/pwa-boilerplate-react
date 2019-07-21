@@ -1,3 +1,9 @@
+/**
+ * @name config/configureStore.js
+ * @fileoverview This file exports the application's redux store, after appliyng 
+ * middlewares and enhancers
+ */
+
 import { createLogicMiddleware } from 'redux-logic';
 import { createStore, applyMiddleware } from 'redux';
 import rootReducer from '../reducers';

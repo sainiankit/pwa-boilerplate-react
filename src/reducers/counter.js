@@ -1,3 +1,8 @@
+/**
+ * @name reducers/counter.js
+ * @fileoverview Exports a reducer function for state.counter
+ */
+
 import { actionTypes } from '../constants';
 
 const initialState = {

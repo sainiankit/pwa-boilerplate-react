@@ -1,8 +1,8 @@
-/* app.js
-Exports the frontend application as App React Component,
-Initialises Application Route using react-router and React components from /views.
-Initialises Redux store and provides it to the App.
-Loads the App Component into #root. */
+/**
+ * @name app.js
+ * @fileoverview Exports the frontend application as <App/> React Component,
+ * Initialises Application Routes using react-router and React components from /views.
+ */
 
 import { hot } from 'react-hot-loader/root'
 import React from 'react';
