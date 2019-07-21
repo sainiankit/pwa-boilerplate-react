@@ -1,8 +1,10 @@
-/* routes.js
-Exports the frontend application's Router component,
-Imports all the views defined in /views,
-Each Route renders a React Component (views) out of /views,
-Views are react components composed out of other react components from /components. */
+/**
+ * @name views/routes.js
+ * @fileoverview Exports the frontend application's Router component,
+ * Imports all the views defined in /views,
+ * Each Route renders a React Component (views) out of /views,
+ * Views are react components composed out of other react components from /components.
+ */
 
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';

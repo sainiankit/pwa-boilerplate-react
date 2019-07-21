@@ -1,8 +1,9 @@
-/* Index.js
- Entry Point for frontend application,
- - Loads the App Component into #root.
- - Intializes Redux Store 
- - Registers Service Worker */
+ /**
+  * @name index.js
+  * @fileoverview Entry Point for frontend application,
+  * Registers Service Worker, Initialises Redux store and provides it to the App.
+  * Loads the App Component into #root
+  */
 
 import React from 'react';
 import ReactDOM from 'react-dom';
