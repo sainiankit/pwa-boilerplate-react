@@ -7,6 +7,9 @@ import { combineReducers } from 'redux';
 import counter from './counter';
 import todo from './todo';
 
+/**
+ * @name rootReducer Result of combining reducers using redux's combineReducers
+ */
 const rootReducer = combineReducers({
         counter,
         todo

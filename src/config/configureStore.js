@@ -20,10 +20,8 @@ const deps = {
 const logicMiddleware = createLogicMiddleware(logics, deps);
 const middleware = applyMiddleware(logicMiddleware);
 
-/**
- * TODO:
- * Add redux dev tools extention support
- */
+
+// TODO: Add redux dev tools extention support
 const enhancer = middleware; // could compose in dev tools too
 
 export default function configureStore() {
