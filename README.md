@@ -1,31 +1,85 @@
-# pwa-boilerplate
+# pwa-boilerplate-react
 
-pwa-boileplate provides boilerplate stack for a Progressive Web Application with offline first capabilities.
+**pwa-boileplate-react** provides boilerplate stack for a Progressive Web Application with offline first capabilities.
 
-pwa-boilerplate stack:
+**pwa-boileplate-react** aims at providing a light-weight Progressive Web Application stack with a very intuitive structure suitable for scalable enterprise web applications.
 
-React
+## Audience
 
-Redux
+- pwa-boilerplate-react serves as a starter pack, for scalable enterprise web applications. Allowing it's users to straight away jump to writing the business logic.
+- pwa-boilerplate-react also serves as great tutorial for building a PWA with React and Redux.
+> **Note:** Follow the code comments and @fileoverviews to get a sound understanding of the application structure and tools being used.
 
-Redux-Logic (Helps to keep the business logic separate from your frontend logic. Also, a lot of other stuff)
+## What's in there ? 
 
-Webpack with HMR
+- React
+- Redux
+- Redux-Logic
+- Webpack with HMR
+- Babel
+- Bundle Analyser
+- Responsive Layout Boilerplate with antDesign
+- PWA Manifest generated with webpack
+- Electron Desktop Application Boilerplate
+- Unit testing with Jest & Enzyme
+- Sample Test Cases
+- Offline First Boilerplate
+- API Calls Abstraction with Axios
 
-Babel
+## Directory Structure
 
-Bundle Analyser
+**pwa-boileplate-react** follows a very intuitive directory structure. Here is a quick look of the organisation:
 
-Responsive Layout Boilerplate with antDesign
+**Do not like it ?** Go Ahead ! Change it. It's Very Adaptive.
 
-PWA Manifest generated with webpack
+📦src  
+ ┣ 📂components  
+ ┃ ┣ 📂Counter  
+ ┃ ┣ 📂Logo  
+ ┃ ┣ 📂Sidebar  
+ ┃ ┗ 📂Todo  
+ ┃ ┃ ┣ 📂container  
+ ┃ ┃ ┃ ┗ 📜Todo.js  
+ ┃ ┃ ┣ 📂presentational  
+ ┃ ┃ ┃ ┗ 📜Todo.js  
+ ┃ ┃ ┗ 📜index.js  
+ ┣ 📂config  
+ ┃ ┣ 📜configureStore.js  
+ ┃ ┗ 📜menu.js  
+ ┣ 📂constants  
+ ┃ ┣ 📜actionTypes.js  
+ ┃ ┣ 📜apiEndpoints.js  
+ ┃ ┗ 📜index.js  
+ ┣ 📂logics  
+ ┃ ┣ 📜Todo.js  
+ ┃ ┗ 📜index.js  
+ ┣ 📂reducers  
+ ┃ ┣ 📜counter.js  
+ ┃ ┣ 📜index.js  
+ ┃ ┗ 📜todo.js  
+ ┣ 📂services  
+ ┃ ┗ 📜exampleService.js  
+ ┣ 📂static  
+ ┃ ┗ 📂app_icons  
+ ┣ 📂utils  
+ ┃ ┣ 📜index.js  
+ ┃ ┗ 📜request.js  
+ ┣ 📂views  
+ ┃ ┣ 📂Async  
+ ┃ ┣ 📂Example  
+ ┃ ┣ 📂Home  
+ ┃ ┗ 📜routes.js  
+ ┣ 📜app.js  
+ ┣ 📜index.html  
+ ┣ 📜index.js  
+ ┣ 📜main.scss  
+ ┗ 📜serviceworker.js
 
-Electron Desktop Application Boilerplate
+## Getting Started
 
-Unit testing with Jest & Enzyme
-
-Sample Test Cases
-
-Offline First Boilerplate
-
-API Calls Abstraction with Axios
+- Clone the project first.
+	> `git clone https://github.com/sainiankit/pwa-boilerplate-react.git`
+- Install the dependencies
+	> `npm install` and Done !
+- To run the dev server:
+	> `npm run dev`
