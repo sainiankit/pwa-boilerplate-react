@@ -5,6 +5,7 @@
   "main": "electron.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "stats": "webpack-bundle-analyzer dist/stats.json",
     "build": "webpack --config webpack.config.js --mode=production",
     "electron": "electron .",
     "dev": "webpack-dev-server --open --hot --mode=development"
