@@ -138,6 +138,10 @@ module.exports = {
     }),
 
     // Generates stats to analyse bundle size
-    new BundleAnalyzerPlugin()
+    new BundleAnalyzerPlugin({
+      analyzerMode: 'disabled',
+      openAnalyzer: false,
+      generateStatsFile: true
+    })
   ],
 };
