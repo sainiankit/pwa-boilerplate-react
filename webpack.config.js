@@ -1,4 +1,7 @@
-/* Webpack Configuration file. (webpack.connfig.js) */
+/**
+ * @name webpack.config.js
+ * @fileoverview Webpack's Configuration file.
+ */
 
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -31,6 +34,10 @@ module.exports = {
   },
   module: {
     rules: [
+      {
+        test: /\.md$/i,
+        use: 'raw-loader',
+      },
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
