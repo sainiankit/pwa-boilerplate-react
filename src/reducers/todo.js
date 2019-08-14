@@ -9,7 +9,8 @@ import { actionTypes } from '../constants';
  * @name initialState Initial state for state.todo object
  */
 const initialState = {
-        list: []
+        list: [],
+        isLoading: false
 };
 
 /**
@@ -21,10 +22,17 @@ const initialState = {
  */
 function reducer(state = initialState, action) {
         switch(action.type) {
+                case actionTypes.GET_TODO_LIST:
+                        return {
+                                ...state,
+                                list: [],
+                                isLoading: true
+                        }
                 case actionTypes.GET_TODO_LIST_SUCCESS:
                         return {
                                 ...state,
                                 list: action.payload.list,
+                                isLoading: false
                         }
                 default:
                         return state;

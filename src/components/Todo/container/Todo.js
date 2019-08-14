@@ -6,6 +6,7 @@ import { actionTypes } from '../../../constants'
 function mapStateToProps(state) {
         return {
                 todoList: state.todo.list,
+                isLoading: state.todo.isLoading
         };
 }
 
