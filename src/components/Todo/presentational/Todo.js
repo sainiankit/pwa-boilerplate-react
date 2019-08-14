@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'antd';
-import { Collapse, Icon } from 'antd';
+import { Collapse, Icon, Spin } from 'antd';
 const { Panel } = Collapse;
 
 const text = `
@@ -17,6 +17,7 @@ const customPanelStyle = {
         overflow: 'hidden',
 };
 
+const antIcon = <Icon type="loading" style={{ fontSize: 24 }} spin />;
 
 const Todo = (props) => {
         return (<div>
@@ -26,11 +27,18 @@ const Todo = (props) => {
                 >
                         Get List
                 </Button>
+                {props.isLoading &&
+                        <div style={{
+                                textAlign: 'center'
+                        }}>
+                                <Spin indicator={antIcon} />
+                        </div>
+                }
                 <Collapse
                         bordered={false}
                         defaultActiveKey={['1']}
                         expandIcon={({ isActive }) => <Icon type="caret-right" rotate={isActive ? 90 : 0} />}
-                        style={{marginTop: '40px'}}
+                        style={{ marginTop: '40px' }}
                 >
                         {props.todoList.map(item => {
                                 return <Panel header={item.title} key={item.id} style={customPanelStyle}>

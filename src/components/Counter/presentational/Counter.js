@@ -4,12 +4,19 @@ import { Button } from 'antd';
 
 const Counter = (props) => {
         return (<div>
-                <Button 
+                <Button
                         type="primary"
                         onClick={props.onClick}
                 >
-                        Increase ({props.count})
+                        Increase
                 </Button>
+                <div style={{
+                            textAlign: 'center',
+                            fontSize: '100px',
+                            fontWeight: '900',
+                }}>
+                        {props.count}
+                </div>
         </div>);
 }
 

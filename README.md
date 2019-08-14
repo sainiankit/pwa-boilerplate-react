@@ -1,4 +1,4 @@
-# pwa-boilerplate-react
+## PWA-Boilerplate-React
 
 **pwa-boileplate-react** provides boilerplate stack for a Progressive Web Application with offline first capabilities.
 
