@@ -14,7 +14,7 @@ module.exports = {
   entry: './src/index.js',
   devtool: 'sourcemaps',
   devServer: {
-    contentBase: './docs',
+    contentBase: './dist',
     port: 6969,
     historyApiFallback: true,
     clientLogLevel: 'error',
@@ -30,7 +30,7 @@ module.exports = {
   output: {
     // filename: 'main.js',
     filename: '[name].[hash].js',
-    path: path.resolve(__dirname, 'docs'),
+    path: path.resolve(__dirname, 'dist'),
   },
   module: {
     rules: [
