@@ -1,16 +1,16 @@
 ## PWA-Boilerplate-React
 
-**pwa-boileplate-react** provides boilerplate stack for a Progressive Web Application with offline first capabilities.
+**pwa-boilerplate-react** provides a boilerplate stack for a Progressive Web Application with offline-first capabilities.
 
-**pwa-boileplate-react** aims at providing a light-weight Progressive Web Application stack with a very intuitive structure suitable for scalable enterprise web applications.
+**pwa-boilerplate-react** aims at providing a light-weight Progressive Web Application stack with a very intuitive structure suitable for scalable enterprise web applications.
 
 ## Audience
 
 - pwa-boilerplate-react serves as a starter pack, for scalable enterprise web applications. Allowing it's users to straight away jump to writing the business logic.
-- pwa-boilerplate-react also serves as great tutorial for building a PWA with React and Redux.
+- pwa-boilerplate-react also serves as a great tutorial for building a PWA with React and Redux.
 > **Note:** Follow the code comments and @fileoverviews to get a sound understanding of the application structure and tools being used.
 
-## What's in there ? 
+## What's in there? 
 
 - React
 - Redux
@@ -21,16 +21,15 @@
 - Responsive Layout Boilerplate with antDesign
 - PWA Manifest generated with webpack
 - Electron Desktop Application Boilerplate
-- Unit testing with Jest & Enzyme
-- Sample Test Cases
+- Unit testing with Jest & Enzyme `#TODO`
+- Sample Test Cases `#TODO`
 - Offline First Boilerplate
-- API Calls Abstraction with Axios
 
 ## Directory Structure
 
-**pwa-boileplate-react** follows a very intuitive directory structure. Here is a quick look of the organisation:
+**pwa-boilerplate-react** follows a very intuitive directory structure. Here is a quick look at the organization:
 
-**Do not like it ?** Go Ahead ! Change it. It's Very Adaptive.
+**Do not like it ?** Go Ahead! Change it. It's Very Adaptive.
 
 📦src  
  ┣ 📂components  
