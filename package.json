@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "pwa-boileplate provides boilerplate stack for a Progressive Web Application with offline first capabilities.",
   "main": "electron.js",
+  "homepage": "https://sainiankit.github.io/pwa-boilerplate-react",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "stats": "webpack-bundle-analyzer dist/stats.json",
