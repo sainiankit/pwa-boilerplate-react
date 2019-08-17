@@ -14,7 +14,12 @@ const Routes = () => (
   <div className="main-view-container">
     <Switch>
       {
-        menu.map(menuItem => <Route key={menuItem.menuDisplayName} exact path={menuItem.path} component={menuItem.viewComponent} />)
+        menu.map(menuItem => <Route
+          key={menuItem.menuDisplayName}
+          exact
+          path={menuItem.path}
+          component={menuItem.viewComponent}
+        />)
       }
     </Switch>
   </div>
