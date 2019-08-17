@@ -111,9 +111,9 @@ module.exports = {
 
     // Generates manifest.json
     new WebpackPwaManifest({
-      name: 'Steer',
-      short_name: 'Steer',
-      description: 'Get it!',
+      name: 'pwa-boilerplate-react',
+      short_name: 'pwa-boilerplate-react',
+      description: 'pwa-boileplate-react provides boilerplate stack for a Progressive Web Application with offline first capabilities.',
       start_url: '/',
       background_color: '#ffffff',
       theme_color: "#31B16B",
