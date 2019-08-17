@@ -1,6 +1,5 @@
 import React from 'react';
 import MarkdownRenderer from 'react-markdown-renderer';
-import { Timeline, List, Checkbox, Icon, Tag } from 'antd';
 import readme from '../../../README.md';
 
 

@@ -15,8 +15,8 @@ const SidebarContents = (props) => {
       <Menu
         theme="light"
         style={{ border: 'none' }}
-        defaultSelectedKeys={['1']}
-        defaultOpenKeys={['1']}
+        defaultSelectedKeys={['0']}
+        defaultOpenKeys={['0']}
         mode="inline"
       >
         {

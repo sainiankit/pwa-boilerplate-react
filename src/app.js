@@ -17,7 +17,9 @@ import './main.scss';
 const { Content } = Layout;
 
 const App = () => (
-  <Router>
+  <Router
+    basename={`${process.env.PUBLIC_URL ? process.env.PUBLIC_URL : ''}`}
+  >
     <div className="app-container">
       <Layout style={{ height: '100vh' }}>
         <Sidebar />
