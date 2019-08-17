@@ -1,6 +1,6 @@
 {
-    "name": "Steer",
-    "short_name": "Steer",
+    "name": "pwa-boilerplate-react",
+    "short_name": "pwa-boilerplate-react",
     "icons": [
         {
             "src": "/src/static/app_icons/android-chrome-192x192.png",
