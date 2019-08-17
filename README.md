@@ -76,8 +76,8 @@
 
 ## Getting Started
 
-- Clone the project first.
-	> `git clone https://github.com/sainiankit/pwa-boilerplate-react.git`
+**pwa-boilerplate-react** is a template repository. Follow the instructions here to [create a new repository from this template](https://www.google.com).
+
 - Install the dependencies
 	> `npm install` and Done !
 - To run the dev server:
