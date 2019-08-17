@@ -22,12 +22,7 @@ module.exports = (env, args) => {
       clientLogLevel: 'error',
       compress: true,
       // host: '192.168.0.106',
-      http2: true,
-      https: {
-        key: fs.readFileSync('/Users/sainiankit/Dev/steer/steer-fe/src/localhost-key.pem'),
-        cert: fs.readFileSync('/Users/sainiankit/Dev/steer/steer-fe/src/localhost-cert.pem'),
-        ca: fs.readFileSync('/Users/sainiankit/Dev/steer/steer-fe/src//rootCA.pem')
-      }
+      http2: true
     },
     output: {
       filename: '[name].[hash].js',
