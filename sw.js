@@ -1,6 +1,6 @@
 var serviceWorkerOption = {
   "assets": [
-    "/main.0da3b650964509539a97.js",
+    "/main.baa27e52319b66fc2a64.js",
     "/index.html",
     "/manifest.784039612a6830890688d7f8b5f17303.json",
     "/icon_384x384.6d722ac94a4729c2998d1687dadfe757.png",
